@@ -2079,7 +2079,7 @@ with gr.Blocks(title="SEC Filing Analysis Tool", theme=gr.themes.Soft()) as demo
                         )
 
                     ask_btn = gr.Button("Ask Question", variant="primary")
-                    answer_output = gr.Markdown()
+                    answer_output = gr.Markdown(latex_delimiters=[])  # keep "$" in dollar amounts from rendering as LaTeX
 
                 with gr.Column(scale=2):
                     gr.Markdown("### Token Cost Estimator")
