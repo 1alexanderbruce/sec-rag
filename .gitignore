@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated at runtime
+data/
+index/
+output/
+Batch_QA_*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
