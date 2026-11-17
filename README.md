@@ -2,6 +2,18 @@
 
 Ask questions about SEC filings and get answers grounded in the filing text. SEC-RAG pulls filings straight from SEC EDGAR, extracts text, tables and financial data, indexes them in a local vector store, and answers questions with an LLM using retrieved passages as context. It ships with a Gradio web app.
 
+## Screenshots
+
+**Load filings:** pick a ticker, form types and date range, then choose specific filings (here, Klarna 6-Ks), or upload your own documents.
+
+![Load Filings tab](docs/screenshots/load-filings.png)
+
+**Ask questions:** answers cite the filing, with a per-query token cost estimate and a running session history that can be exported to CSV.
+
+![Ask Questions tab](docs/screenshots/ask-questions.png)
+
+Both screenshots use public SEC filings (Klarna Group plc, Form 6-K).
+
 ## Features
 
 - **EDGAR download by ticker, form type and date range**: 10-K, 10-Q, 8-K, 6-K, F-1 and others. Lists the filings available for a company and lets you pick specific ones.
