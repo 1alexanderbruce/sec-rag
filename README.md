@@ -33,8 +33,6 @@ cp .env.example .env     # then edit: add LLM_API_KEY and SEC_USER_AGENT
 ./run.sh                 # or: python app.py
 ```
 
-Open http://127.0.0.1:7860.
-
 OCR is optional and needs the `tesseract-ocr` system package. The PDF summary for Batch Q&A is optional and needs `pandoc` with XeLaTeX.
 
 ## Configuration
